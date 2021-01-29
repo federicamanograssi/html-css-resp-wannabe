@@ -82,6 +82,7 @@ img {
 
 
 /* DA QUI PUOI AGGIUNGERE */
+
 @media screen and (max-width:419px){
 * {
   margin:0;
@@ -95,20 +96,23 @@ body{
 }
 
 /* COMMON */
-
+.container {
+  padding: 15px;;
+}
 .row{
   margin: 0;
-  padding: 10px 5px;
+  /* padding: 10px 5px; */
   width: 100%;
 }
 
-#lezioni .row,
-#why .row {
+#lezioni.container,
+#why.container {
   background-color: #f2f2cd;
 }
 
 img {
   height: 100px;
+  width: auto;
 }
 
 /* LEZIONI */
